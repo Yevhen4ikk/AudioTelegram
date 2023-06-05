@@ -12,10 +12,10 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # Set up Telegram bot
-bot = telegram.Bot(token=os.environ.get('TELEGRAM_TOKEN'))
+bot = telegram.Bot(token=os.environ.get('6228026271:AAEiQlgzcqzWTEjeYbJm6xhQeoEhnM3nG0M'))
 
 # Set up YouTube Data API
-api_key = os.environ.get('YOUTUBE_API_KEY')
+api_key = os.environ.get('AIzaSyAAAAUH6xprMsOxxp1w__by0anx7vGyaxw')
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Define command handlers
